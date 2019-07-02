@@ -1,6 +1,6 @@
 ---
-title: "Tasks"
-linkTitle: "Tasks"
+title: "Configuring HTTP01 solvers"
+linkTitle: "HTTP01"
 weight: 10
 type: "docs"
 ---

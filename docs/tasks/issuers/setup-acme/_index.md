@@ -1,7 +1,7 @@
 ---
-title: "Tasks"
-linkTitle: "Tasks"
-weight: 10
+title: "Setting up ACME Issuers"
+linkTitle: "Let's Encrypt"
+weight: 60
 type: "docs"
 ---
 

@@ -5,7 +5,6 @@ weight: 10
 type: "docs"
 ---
 
-
 cert-manager runs within your Kubernetes cluster as a series of
 deployment resources. It utilises
 [CustomResourceDefinitions](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)

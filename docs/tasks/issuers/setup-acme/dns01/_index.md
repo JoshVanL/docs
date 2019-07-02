@@ -1,7 +1,7 @@
 ---
-title: "Tasks"
-linkTitle: "Tasks"
-weight: 10
+title: "Configuring DNS01 solvers"
+linkTitle: "DNS01"
+weight: 20
 type: "docs"
 ---
 

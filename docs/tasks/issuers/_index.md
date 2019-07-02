@@ -1,6 +1,6 @@
 ---
-title: "Tasks"
-linkTitle: "Tasks"
+title: "Setting up Issuers"
+linkTitle: "Configuring Issuers"
 weight: 10
 type: "docs"
 ---
