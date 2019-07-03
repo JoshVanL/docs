@@ -41,7 +41,7 @@ issuer types you require:
 - **[CA](./setup-ca.md)**: issue certificates signed by a X509 signing keypair,
   stored in a Secret in the Kubernetes API server.
 - **[Self signed](./setup-selfsigned.md)**: issue self signed certificates.
-- **[ACME](./setup-acme/README.md)**: issue certificates obtained by performing
+- **[ACME](./setup-acme/)**: issue certificates obtained by performing
   challenge validations against an ACME server such as
   [Let's Encrypt](https://letsencrypt.org).
 - **[Vault](./setup-vault.md)**: issue certificates from a Vault instance

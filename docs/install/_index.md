@@ -16,7 +16,7 @@ on Kubernetes.
 Once cert-manager has been deployed, you must configure Issuer or
 ClusterIssuer resources which represent certificate authorities. More
 information on configuring different Issuer types can be found in the
-[respective setup guides](../tasks/issuers/README.md).
+[respective setup guides](../tasks/issuers/).
 
 ## Installing with regular manifests
 
@@ -236,7 +236,7 @@ Configuring your first Issuer
 Before you can begin issuing certificates, you must configure at least
 one Issuer or ClusterIssuer resource in your cluster.
 
-You should read the [Setting up Issuers](../tasks/issuers/README.md) guide to learn
+You should read the [Setting up Issuers](../tasks/issuers/) guide to learn
 how to configure cert-manager to issue certificates from one of the supported
 backends.
 

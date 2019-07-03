@@ -12,7 +12,7 @@ In order to issue any certificates, you'll need to configure an Issuer
 resource first.
 
 If you have not configured any issuers yet, you should read the
-[Setting up Issuers](../issuers/README.md) guide.
+[Setting up Issuers](../issuers/) guide.
 
 Creating Certificate resources
 ------------------------------

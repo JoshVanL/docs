@@ -7,7 +7,7 @@ type: "docs"
 
 This guide explains how to set up an Issuer, or ClusterIssuer, to use
 Google CloudDNS to solve DNS01 ACME challenges. It's advised you read the
-[DNS01 Challenge Provider](./README.md) page first for a more general
+[DNS01 Challenge Provider](./) page first for a more general
 understanding of how cert-manager handles DNS01 challenges.
 
 > **Note**: This guide assumes that your cluster is hosted on Google Cloud and
@@ -81,7 +81,7 @@ spec:
 ```
 
 For more information about Issuers and ClusterIssuers, see
-[Setting Up Issuers](../../README.md).
+[Setting Up Issuers](../../).
 
 Once an Issuer (or ClusterIssuer) has been created successfully a
 Certificate can then be added to verify that everything works.
@@ -104,4 +104,4 @@ spec:
 ```
 
 For more details about Certificates, see
-[Issuing Certificates](../../../../issuing-certificates/README.md).
+[Issuing Certificates](../../../../issuing-certificates/).

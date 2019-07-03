@@ -9,7 +9,7 @@ This page contains details on the different options available on the
 `Issuer` resource DNS01 challenge solver configuration.
 
 For more information on configuring ACME issuers and their API format,
-read the [Setting up ACME Issuers](../README.md) documentation.
+read the [Setting up ACME Issuers](../) documentation.
 
 You can read about how the DNS01 challenge type works on the [Let
 Encrypt challenge types

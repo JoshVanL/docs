@@ -6,7 +6,7 @@ type: "docs"
 ---
 
 cert-manager supports running on OpenShift in a similar manner to
-[Running on Kubernetes](./README.md). It runs within your OpenShift cluster as
+[Running on Kubernetes](./). It runs within your OpenShift cluster as
 a series of deployment resources. It utilises
 [CustomResourceDefinitions](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
 to configure Certificate Authorities and request certificates.
@@ -17,7 +17,7 @@ on OpenShift.
 Once cert-manager has been deployed, you must configure Issuer or
 ClusterIssuer resources which represent certificate authorities. More
 information on configuring different Issuer types can be found in the
-[respective setup guides](../tasks/issuers/README.md).
+[respective setup guides](../tasks/issuers/).
 
 Login to your OpenShift cluster
 -------------------------------
@@ -87,7 +87,7 @@ Configuring your first Issuer
 Before you can begin issuing certificates, you must configure at least
 one Issuer or ClusterIssuer resource in your cluster.
 
-You should read the [Setting up Issuers](../tasks/issuers/README.md) guide to
+You should read the [Setting up Issuers](../tasks/issuers/) guide to
 learn how to configure cert-manager to issue certificates from one of the
 supported backends.
 

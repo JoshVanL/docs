@@ -67,7 +67,7 @@ that reference the ClusterIssuer `letsencrypt-prod` for all
 Ingresses that have a `kubernetes.io/tls-acme: "true"` annotation.
 
 For more information on deploying cert-manager, read the
-[deployment guide](../../install/README.md).
+[deployment guide](../../install/).
 
 Supported annotations
 ---------------------
