@@ -64,7 +64,7 @@ configured by checking the ready status of the certificate.
 TODO (@joshvanl): add output to this command once the ready status has been
 configured for the CLI.
 ```bash
-$ kubectl get certificates ca-issuer -n sandbox -o wide
+$ kubectl get issuers ca-issuer -n sandbox -o wide
 ```
 
 Certificates are now ready to be requested by using the CA issuer named
