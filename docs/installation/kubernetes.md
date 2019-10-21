@@ -1,6 +1,6 @@
 ---
-title: "Installation"
-linkTitle: "Installation"
+title: "Kubernetes"
+linkTitle: "Kubernetes"
 weight: 20
 type: "docs"
 ---
