@@ -41,7 +41,8 @@ spec:
 ```
 
 Once deployed, you should be able to see immediately that the issuer is ready
-for signing.
+for signing. Replace `issuers` here with `clusterissuers` if that is what has
+been deployed.
 
 TODO (@joshvanl): add output to this command once the ready status has been
 ```bash
