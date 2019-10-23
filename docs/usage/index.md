@@ -19,7 +19,7 @@ requesting certificates through cert-manager:
   for you cluster.
 - [Securing Knative](./knative.md): Secure your Knative installation with
   trusted HTTPS connection.
-- [Enable mTLS for your pods through CSI](./csi.md): Using the cert-manager CSI
+- [Enable mTLS on Pods with CSI](./csi.md): Using the cert-manager CSI
   driver to provide unique keys and certificates that share the life cycle of
   pods.
 - [Securing Istio Service Mesh](./istio.md): Using the cert-manager
