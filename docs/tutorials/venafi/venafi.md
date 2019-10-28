@@ -1,6 +1,6 @@
 ---
-title: "Venafi-Ingress"
-linkTitle: "venafi-ingress"
+title: "EKS-Venafi"
+linkTitle: "EKS-Venafi"
 weight: 50
 type: "docs"
 ---
