@@ -26,3 +26,6 @@ authors are as follows:
 - [step-issuer](https://github.com/smallstep/step-issuer): Used to request
   certificates from the [SmallStep](https://smallstep.com) [Certificate
   Authority ACME server](https://github.com/smallstep/certificates).
+
+To create your own external issuer type, please follow the guidance in the
+[development documentation](../devel/external-issuers.md).
