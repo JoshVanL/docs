@@ -5,7 +5,7 @@ weight: 70
 type: "docs"
 ---
 
-# Running end-to-end tests
+# Running End-to-End Tests
 
 cert-manager has an end-to-end test suite that verifies functionality against a
 real Kubernetes cluster.
@@ -37,7 +37,7 @@ run the tests:
 
 Bazel, Docker and Kubectl should be installed through your preferred means.
 
-## Run end-to-end tests
+## Run End-to-End Tests
 
 You can run the end-to-end tests by executing the following:
 
