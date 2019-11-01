@@ -48,3 +48,13 @@ order controllers. You can read the valid condition sates
 [here](../concepts/certificaterequest.md#Conditions).
 
 ## Implementation
+
+It is recommended that you make use of the
+[kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) project in order
+to implement your external issuer controller. This makes it very simple to
+generate `CustomResourceDefinitions` and gives you a lot of controller
+functionality out of the box. If you have further questions on how to implement
+an external issuer controller, it is best to reach out of the #cert-manager
+[slack](slack.k8s.io) channel, or to join the weekly community calls which you
+will be invited to once you join the [Google
+Group](https://groups.google.com/forum/#!forum/cert-manager-dev).
