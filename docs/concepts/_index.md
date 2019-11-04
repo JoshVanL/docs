@@ -5,6 +5,8 @@ weight: 10
 type: "docs"
 ---
 
+# Concepts
+
 cert-manager has a number of resources and components which can you explore
 below:
 
@@ -13,3 +15,4 @@ below:
 - [Issuer](./issuer.md)
 - [Project Maturity](./project-maturity.md)
 - [Webhook](./webhook.md)
+- [CA Injector](./ca-injector.md)

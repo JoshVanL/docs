@@ -32,7 +32,7 @@ main functions:
   versions as they are released.
 
 The webhook component is deployed as another pod that runs along side the main
-cert-manager controller pod.
+cert-manager controller and CA injector components.
 
 In order for the API server to communicate with the webhook component, the
 webhook requires a TLS certificate that the apiserver is configured to trust.
