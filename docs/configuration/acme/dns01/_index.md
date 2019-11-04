@@ -115,3 +115,33 @@ and provider specific notes regarding their usage.
 - [route53](./route53.md)
 - [digitalocean](./digitalocean.md)
 - [rfc2136](./rfc2136.md)
+
+## Webhook
+
+cert-manager also supports out of tree DNS providers using an external webhook.
+Links to these supported providers along with their documentation are below:
+- [alidns-webhook](https://github.com/pragkent/alidns-webhook)
+- [cert-manager-webhook-dnspod](https://github.com/qqshfox/cert-manager-webhook-dnspod)
+- [cert-manager-webhook-selectel](https://github.com/selectel/cert-manager-webhook-selectel)
+- [cert-manager-webhook-softlayer](https://github.com/cgroschupp/cert-manager-webhook-softlayer)
+
+To create a new unsupported DNS provider, follow the development documentation
+[here](../../../devel/dns-providers.md).
+
+```yaml
+apiVersion: cert-manager.io/v1alpha2
+kind: Issuer
+metadata:
+  name: example-issuer
+spec:
+  acme:
+   ...
+    solvers:
+    - dns01:
+        webhook:
+          groupName: <webhook-group-name>
+          solverName: <webhook-solver-name>
+          config:
+            ...
+            <webhook-specific-configuration>
+```
