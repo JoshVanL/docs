@@ -19,6 +19,8 @@ get to a final goal. Below is list of tutorials that you might find helpful:
   Tutorial on how to resolve DNS ownership validation using DNS01 challenges.
 - [Issuing ac ACME Certificate using HTTP Validation](./acme/http-validation.md):
   Tutorial on how to resolve DNS ownership validation using HTTP01 challenges.
+- [Migrating from kube-lego](./acme/migrating-from-kube-lego.md): Tutorial on
+  how to migrate from the now deprecated kube-lego project.
 - [Securing an EKS Cluster with Venafi](./venafi/eks-venafi.md): Tutorial for
   creating an EKS cluster and securing an NGINX deployment with a Venafi issued
   certificate.
