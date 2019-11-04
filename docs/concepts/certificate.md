@@ -1,11 +1,11 @@
 ---
-title: "Certificates"
-linkTitle: "Certificates"
+title: "Certificate"
+linkTitle: "Certificate"
 weight: 10
 type: "docs"
 ---
 
-# Certificates
+# Certificate
 
 cert-manager has the concept of `Certificate`s that define a desired X.509
 certificate. A `Certificate` is a namespaced resource that references an
@@ -53,4 +53,4 @@ A Certificate can alternatively reference a ClusterIssuer which is
 non-namespaced and so can be referenced from any namespace.
 
 You can read more on how to configure your certificate resources
-[here](../configuration/certificates.md).
+[here](../usage/certificates.md).
