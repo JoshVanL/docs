@@ -14,6 +14,8 @@ get to a final goal. Below is list of tutorials that you might find helpful:
 
 - [Backup and Restore Resources](./backup.md): Backup the cert-manager resources
   in your cluster and then restore them.
+- [Uninstalling cert-manager](./uninstall/_index.md): Completely uninstall
+  cert-manager from your cluster.
 - [Securing Ingresses with NGINX-Ingress and
   cert-manager](./acme/nginx-ingress.md): Tutorial for deploying NGINX into your
   cluster and securing the connection with an ACME certificate.
